@@ -56,6 +56,10 @@ For each approved slice, publish a new issue to the issue tracker. Use the issue
 Publish issues in dependency order (blockers first) so you can reference real issue identifiers in the "Blocked by" field.
 
 <issue-template>
+
+**Type**: HITL / AFK
+**User stories**: A comma-separated list of user story numbers this slice addresses, or "Infrastructure only" if none apply directly.
+
 ## Parent
 
 A reference to the parent issue on the issue tracker (if the source was an existing issue, otherwise omit this section).
