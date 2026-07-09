@@ -66,6 +66,9 @@ Do NOT close or modify any parent issue.
 
 <tickets-file-template>
 
+**Type**: HITL / AFK
+**User stories**: A comma-separated list of user story numbers this slice addresses, or "Infrastructure only" if none apply directly.
+
 # Tickets: <short name of the work>
 
 A one-line summary of what these tickets build. Reference the source spec if there is one.
@@ -88,6 +91,9 @@ Work the **frontier**: any ticket whose blockers are all done. For a purely line
 </tickets-file-template>
 
 <issue-template>
+
+**Type**: HITL / AFK
+**User stories**: A comma-separated list of user story numbers this slice addresses, or "Infrastructure only" if none apply directly.
 
 ## Parent
 
