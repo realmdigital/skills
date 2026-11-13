@@ -32,7 +32,8 @@ A plugin updates itself. [skills.sh](https://skills.sh/realmdigital/skills) copi
 <summary><strong>Claude Code</strong></summary>
 
 ```bash
-claude plugin install realmdigital-skills@claude-plugins-official
+claude plugin marketplace add realmdigital/skills
+claude plugin install realmdigital-skills@realmdigital
 ```
 
 Updates itself by default.
